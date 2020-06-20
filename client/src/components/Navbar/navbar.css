@@ -1,0 +1,12 @@
+@media only screen and (min-width: 768px) {
+  .people {
+    position: fixed;
+    right: 220px;
+    top: 15px;
+  }
+  .animals {
+    position: fixed;
+    right: 120px;
+    top: 15px;
+  }
+}
