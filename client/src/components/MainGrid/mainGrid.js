@@ -1,30 +1,24 @@
-import React, { Component } from "react";
+import React from "react";
 import StackGrid from "react-stack-grid";
-import KeanuCard from "../KeanuCard/index.js";
-import keanuPics from "../../keanus.json";
+import PaintingCard from "../PaintingCard/index.js";
+
 import "./mainGrid.css";
 
-class MainGrid extends Component {
-  state = {
-    keanuPics,
-  };
-
-  render() {
-    return (
-      <div id="container">
-        <StackGrid columnWidth={300} gutterWidth={3}>
-          {this.state.keanuPics.map((keanu) => (
-            <KeanuCard
-              key={keanu.id}
-              className="keanu-card"
-              id={keanu.id}
-              name={keanu.name}
-              image={keanu.image}
-            />
-          ))}
-        </StackGrid>
-      </div>
-    );
-  }
-}
+const MainGrid = ({ paintings }) => {
+  return (
+    <div id="container">
+      <StackGrid columnWidth={400} gutterWidth={3}>
+        {paintings.map((painting) => (
+          <PaintingCard
+            key={painting.id}
+            className="painting-card"
+            id={painting.id}
+            name={painting.name}
+            image={painting.image}
+          />
+        ))}
+      </StackGrid>
+    </div>
+  );
+};
 export default MainGrid;

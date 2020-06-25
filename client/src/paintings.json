@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "chinchilla",
+    "image": "https://i.postimg.cc/1X9598qY/chinchilla2.png",
+    "clicked": false,
+    "category": "animal",
+    "year": "2018"
+  },
+  {
+    "id": 2,
+    "name": "cow",
+    "image": "https://i.postimg.cc/VLdkdwxv/cow.png",
+    "clicked": false,
+    "category": "animal",
+    "year": "2018"
+  },
+  {
+    "id": 3,
+    "name": "bunny",
+    "image": "https://i.postimg.cc/26kzmNdz/jens-Bunny.png",
+    "clicked": false,
+    "category": "animal",
+    "year": "2019"
+  },
+  {
+    "id": 4,
+    "name": "dog1",
+    "image": "https://i.postimg.cc/CLrLgLLm/Screen-Shot-2020-06-22-at-5-13-46-PM.png",
+    "clicked": false,
+    "category": "animal",
+    "year": "2020"
+  },
+  {
+    "id": 5,
+    "name": "person1",
+    "image": "https://i.postimg.cc/sgZyCYLg/slobodan.png",
+    "clicked": false,
+    "category": "person",
+    "year": "2019"
+  },
+  {
+    "id": 6,
+    "name": "person2",
+    "image": "https://i.postimg.cc/SQTpX1FK/bearded-Man.png",
+    "clicked": false,
+    "category": "person",
+    "year": "2017"
+  },
+  {
+    "id": 7,
+    "name": "person3",
+    "image": "https://i.postimg.cc/vmqp1DkN/omarsGM.png",
+    "clicked": false,
+    "category": "person",
+    "year": "2019"
+  },
+  {
+    "id": 8,
+    "name": "person4",
+    "image": "https://i.postimg.cc/8zT3thVY/myMom.png",
+    "clicked": false,
+    "category": "person",
+    "year": "2018"
+  },
+  {
+    "id": 9,
+    "name": "person5",
+    "image": "https://i.postimg.cc/MZdjnwpj/margaret.png",
+    "clicked": false,
+    "category": "person",
+    "year": "2018"
+  },
+  {
+    "id": 10,
+    "name": "person6",
+    "image": "https://i.postimg.cc/DwbWpbdq/portrait-For-Shannon.png",
+    "clicked": false,
+    "category": "person",
+    "year": "2017"
+  },
+  {
+    "id": 11,
+    "name": "person7",
+    "image": "https://i.postimg.cc/DfMwVwz5/sharlene-Sketch.png",
+    "clicked": false,
+    "category": "person",
+    "year": "2017"
+  },
+  {
+    "id": 12,
+    "name": "person8",
+    "image": "https://i.postimg.cc/NMPBwdQL/sand-Desert-Man.png",
+    "clicked": false,
+    "category": "person",
+    "year": "2017"
+  }
+]

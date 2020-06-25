@@ -20,7 +20,7 @@ const ContactModal = (props) => {
 
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
-  const [name, setName] = useState("");
+
   const [text, setText] = useState("");
 
   const printValues = (e) => {

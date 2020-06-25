@@ -1,14 +1,14 @@
 //*
 import React from "react";
 import NavContainer from "./components/NavContainer/navContainer";
-import MainGrid from "./components/MainGrid/mainGrid";
+import MainContainer from "./components/MainContainer/mainContainer";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <NavContainer />
-      <MainGrid />
+      <MainContainer />
     </div>
   );
 }
