@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "chinchillaBig",
+    "image": "https://i.postimg.cc/bsr3wrdp/chinchilla2.png",
+    "clicked": false,
+    "category": "animal",
+    "year": "2018"
+  },
+  {
+    "id": 2,
+    "name": "cowBig",
+    "image": "https://i.postimg.cc/TpsQLxWm/cow.png",
+    "clicked": false,
+    "category": "animal",
+    "year": "2018"
+  },
+  {
+    "id": 3,
+    "name": "bunnyBig",
+    "image": "https://i.postimg.cc/LJZDjWzW/jens-Bunny.png",
+    "clicked": false,
+    "category": "animal",
+    "year": "2019"
+  }
+]
