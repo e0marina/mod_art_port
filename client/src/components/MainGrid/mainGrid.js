@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import StackGrid from "react-stack-grid";
+// import StackGrid from "react-stack-grid";
+import Masonry from "react-masonry-css";
 import PaintingCard from "../PaintingCard/index.js";
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 import "./mainGrid.css";
@@ -9,11 +10,21 @@ const MainGrid = ({ paintings }) => {
 
   const toggle = () => setModal(!modal);
 
+  const breakpointColumnsObj = {
+    default: 3,
+    1100: 3,
+    800: 2,
+    500: 1,
+  };
   return (
     <div id="container">
-      <StackGrid columnWidth={400} gutterWidth={3}>
+      <Masonry
+        breakpointCols={breakpointColumnsObj}
+        className="my-masonry-grid"
+        columnClassName="my-masonry-grid_column"
+      >
         {paintings.map((painting) => (
-          <a role="button" href="#" onClick={toggle}>
+          <a role="button" href="#" onClick={toggle} key={painting.id}>
             <PaintingCard
               key={painting.id}
               className="painting-card"
@@ -22,7 +33,7 @@ const MainGrid = ({ paintings }) => {
               image={painting.image}
             />
             <Modal isOpen={modal} toggle={toggle}>
-              <ModalHeader toggle={toggle}>Modal title</ModalHeader>
+              <ModalHeader toggle={toggle}></ModalHeader>
               <ModalBody>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -43,7 +54,7 @@ const MainGrid = ({ paintings }) => {
             </Modal>
           </a>
         ))}
-      </StackGrid>
+      </Masonry>
     </div>
   );
 };

@@ -19,8 +19,8 @@ const Navigation = () => {
 
   return (
     <div>
-      <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">Emily Marinaro</NavbarBrand>
+      <Navbar color="transparent" light expand="md">
+        <NavbarBrand href="/">EMILY MARINARO</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
