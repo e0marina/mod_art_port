@@ -5,7 +5,7 @@ import { Modal, ModalHeader, ModalBody } from "reactstrap";
 import ZoomedImages from "../ZoomedImages/zoomedImages";
 import "./mainGrid.css";
 
-const MainGrid = ({ paintings, paintingsBig }) => {
+const MainGrid = ({ paintings, paintingsBig, filterPaintingByCategory }) => {
   const [modal, setModal] = useState(false);
 
   const toggle = () => setModal(!modal);
@@ -31,6 +31,7 @@ const MainGrid = ({ paintings, paintingsBig }) => {
               id={painting.id}
               name={painting.name}
               image={painting.image}
+              category={painting.category}
             />
             <Modal isOpen={modal} toggle={toggle}>
               <ModalHeader toggle={toggle}></ModalHeader>
