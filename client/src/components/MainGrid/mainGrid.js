@@ -1,14 +1,32 @@
 import React, { useState } from "react";
+import { useParams } from "react-router-dom";
 import Masonry from "react-masonry-css";
 import PaintingCard from "../PaintingCard/index.js";
 import { Modal, ModalHeader, ModalBody } from "reactstrap";
 import ZoomedImages from "../ZoomedImages/zoomedImages";
 import "./mainGrid.css";
+import paintings from "../../paintings.json";
+import paintingsBig from "../../paintingsBig.json";
 
-const MainGrid = ({ paintings, paintingsBig, filterPaintingByCategory }) => {
+const MainGrid = () => {
   const [modal, setModal] = useState(false);
+  const [topic, setTopic] = useState(null);
 
   const toggle = () => setModal(!modal);
+
+  const { topicPath } = useParams();
+  // console.log(topicPath);
+  console.log(paintings);
+
+  let filterPaintings;
+  console.log(topicPath);
+
+  if (topicPath) {
+    filterPaintings = paintings.filter((p) => p.category === topicPath);
+    console.log(filterPaintings);
+  } else {
+    filterPaintings = paintings;
+  }
 
   const breakpointColumnsObj = {
     default: 3,
@@ -16,6 +34,7 @@ const MainGrid = ({ paintings, paintingsBig, filterPaintingByCategory }) => {
     800: 2,
     500: 1,
   };
+
   return (
     <div id="container">
       <Masonry
@@ -23,7 +42,7 @@ const MainGrid = ({ paintings, paintingsBig, filterPaintingByCategory }) => {
         className="my-masonry-grid"
         columnClassName="my-masonry-grid_column"
       >
-        {paintings.map((painting) => (
+        {filterPaintings.map((painting) => (
           <a role="button" href="#" onClick={toggle} key={painting.id}>
             <PaintingCard
               key={painting.id}

@@ -33,66 +33,66 @@
   },
   {
     "id": 5,
-    "name": "person1",
+    "name": "people1",
     "image": "https://i.postimg.cc/sgZyCYLg/slobodan.png",
     "clicked": false,
-    "category": "person",
+    "category": "people",
     "year": "2019"
   },
   {
     "id": 6,
-    "name": "person2",
+    "name": "people2",
     "image": "https://i.postimg.cc/SQTpX1FK/bearded-Man.png",
     "clicked": false,
-    "category": "person",
+    "category": "people",
     "year": "2017"
   },
   {
     "id": 7,
-    "name": "person3",
+    "name": "people3",
     "image": "https://i.postimg.cc/vmqp1DkN/omarsGM.png",
     "clicked": false,
-    "category": "person",
+    "category": "people",
     "year": "2019"
   },
   {
     "id": 8,
-    "name": "person4",
+    "name": "people4",
     "image": "https://i.postimg.cc/8zT3thVY/myMom.png",
     "clicked": false,
-    "category": "person",
+    "category": "people",
     "year": "2018"
   },
   {
     "id": 9,
-    "name": "person5",
+    "name": "people5",
     "image": "https://i.postimg.cc/MZdjnwpj/margaret.png",
     "clicked": false,
-    "category": "person",
+    "category": "people",
     "year": "2018"
   },
   {
     "id": 10,
-    "name": "person6",
+    "name": "people6",
     "image": "https://i.postimg.cc/DwbWpbdq/portrait-For-Shannon.png",
     "clicked": false,
-    "category": "person",
+    "category": "people",
     "year": "2017"
   },
   {
     "id": 11,
-    "name": "person7",
+    "name": "people7",
     "image": "https://i.postimg.cc/DfMwVwz5/sharlene-Sketch.png",
     "clicked": false,
-    "category": "person",
+    "category": "people",
     "year": "2017"
   },
   {
     "id": 12,
-    "name": "person8",
+    "name": "people8",
     "image": "https://i.postimg.cc/NMPBwdQL/sand-Desert-Man.png",
     "clicked": false,
-    "category": "person",
+    "category": "people",
     "year": "2017"
   }
 ]

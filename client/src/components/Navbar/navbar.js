@@ -31,7 +31,7 @@ const Navigation = () => {
                 </NavLink>
               </NavItem>
               <NavItem className="animals">
-                <NavLink href="#">Animals</NavLink>
+                <NavLink href="/animal">Animals</NavLink>
               </NavItem>
 
               <ContactModal />

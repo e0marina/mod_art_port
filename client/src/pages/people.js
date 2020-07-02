@@ -1,12 +1,12 @@
 import React from "react";
 import NavContainer from "../components/NavContainer/navContainer";
-import MainContainer from "../components/MainContainer/mainContainer";
+import MainGrid from "../components/MainGrid/mainGrid";
 
 function People() {
   return (
     <div className="App">
       <NavContainer />
-      <MainContainer />
+      <MainGrid />
     </div>
   );
 }
