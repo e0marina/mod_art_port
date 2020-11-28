@@ -2,14 +2,17 @@
   .people {
     position: fixed;
     right: 220px;
-    top: 15px;
+    top: 10px;
   }
   .animals {
     position: fixed;
     right: 120px;
-    top: 15px;
+    top: 10px;
   }
 }
 #nav-styling {
-  position: sticky;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
 }

@@ -50,7 +50,7 @@ const ContactModal = (props) => {
           textDecoration: "none",
           position: "fixed",
           right: "20px",
-          top: "15px",
+          top: "10px",
         }}
         onClick={toggle}
       >
@@ -84,7 +84,7 @@ const ContactModal = (props) => {
             </FormGroup>
 
             <FormGroup>
-              <Label for="usertext">text</Label>
+              <Label for="usertext">Text</Label>
               <Input
                 value={text}
                 onChange={(event) => setText(event.target.value)}
