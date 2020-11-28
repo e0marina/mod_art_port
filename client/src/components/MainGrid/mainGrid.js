@@ -1,32 +1,28 @@
-import React, { useState } from "react";
+import React from "react";
 import { useParams } from "react-router-dom";
 import Masonry from "react-masonry-css";
-import PaintingCard from "../PaintingCard/index.js";
-import { Modal, ModalHeader, ModalBody } from "reactstrap";
-import ZoomedImages from "../ZoomedImages/zoomedImages";
 import "./mainGrid.css";
 import paintings from "../../paintings.json";
-import paintingsBig from "../../paintingsBig.json";
+import ModalImage from "react-modal-image";
 
 const MainGrid = () => {
-  const [modal, setModal] = useState(false);
-  const [topic, setTopic] = useState(null);
-
-  const toggle = () => setModal(!modal);
+  //const [topic, setTopic] = useState(null);
 
   const { topicPath } = useParams();
   // console.log(topicPath);
-  console.log(paintings);
+  //console.log(paintings);
 
   let filterPaintings;
-  console.log(topicPath);
+  //console.log(topicPath);
 
   if (topicPath) {
     filterPaintings = paintings.filter((p) => p.category === topicPath);
-    console.log(filterPaintings);
+    //console.log(filterPaintings);
   } else {
     filterPaintings = paintings;
   }
+
+  //if the modal is open, match the image to the one that was clicked
 
   const breakpointColumnsObj = {
     default: 3,
@@ -43,22 +39,11 @@ const MainGrid = () => {
         columnClassName="my-masonry-grid_column"
       >
         {filterPaintings.map((painting) => (
-          <a role="button" href="#" onClick={toggle} key={painting.id}>
-            <PaintingCard
-              key={painting.id}
-              className="painting-card"
-              id={painting.id}
-              name={painting.name}
-              image={painting.image}
-              category={painting.category}
-            />
-            <Modal isOpen={modal} toggle={toggle}>
-              <ModalHeader toggle={toggle}></ModalHeader>
-              <ModalBody>
-                <ZoomedImages paintingsBig={paintingsBig} />
-              </ModalBody>
-            </Modal>
-          </a>
+          <ModalImage
+            small={painting.image}
+            large={painting.larger}
+            alt="Hello World!"
+          />
         ))}
       </Masonry>
     </div>
