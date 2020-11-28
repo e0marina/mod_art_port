@@ -11,6 +11,7 @@
     "id": 2,
     "name": "cow",
     "image": "https://i.postimg.cc/VLdkdwxv/cow.png",
+    "larger":  "https://i.postimg.cc/TpsQLxWm/cow.png",
     "clicked": false,
     "category": "animal",
     "year": "2018"
