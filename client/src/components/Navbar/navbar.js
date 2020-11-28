@@ -18,8 +18,8 @@ const Navigation = () => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
-      <Navbar color="transparent" light expand="md">
+    <div id="nav-styling">
+      <Navbar light expand="md">
         <NavbarBrand href="/">EMILY MARINARO</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
