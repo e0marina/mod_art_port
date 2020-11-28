@@ -3,6 +3,8 @@
     "id": 1,
     "name": "chinchilla",
     "image": "https://i.postimg.cc/1X9598qY/chinchilla2.png",
+    "larger":  "https://i.postimg.cc/wvkYD4CW/Screen-Shot-2020-11-28-at-12-24-25-PM.png",
+    "description":"'Chinchilla', oil on paper, 2018",
     "clicked": false,
     "category": "animal",
     "year": "2018"

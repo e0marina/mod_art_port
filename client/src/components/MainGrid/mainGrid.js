@@ -42,7 +42,7 @@ const MainGrid = () => {
           <ModalImage
             small={painting.image}
             large={painting.larger}
-            alt="Hello World!"
+            alt={painting.description}
           />
         ))}
       </Masonry>
