@@ -13,7 +13,8 @@
     "id": 2,
     "name": "cow",
     "image": "https://i.postimg.cc/VLdkdwxv/cow.png",
-    "larger":  "https://i.postimg.cc/TpsQLxWm/cow.png",
+    "larger":  "https://i.postimg.cc/1XDYJXjW/Screen-Shot-2020-11-28-at-4-37-41-PM.png",
+    "description":"'Cow', oil on paper, 2018",
     "clicked": false,
     "category": "animal",
     "year": "2018"
@@ -22,6 +23,8 @@
     "id": 3,
     "name": "bunny",
     "image": "https://i.postimg.cc/26kzmNdz/jens-Bunny.png",
+    "larger":  "https://i.postimg.cc/4dQ9PT16/Screen-Shot-2020-11-28-at-4-40-24-PM.png",
+    "description":"'Patrick', watercolor on cold press paper, 2020",
     "clicked": false,
     "category": "animal",
     "year": "2019"
@@ -30,6 +33,8 @@
     "id": 4,
     "name": "dog1",
     "image": "https://i.postimg.cc/CLrLgLLm/Screen-Shot-2020-06-22-at-5-13-46-PM.png",
+    "larger":  "https://i.postimg.cc/1XgytG48/klunker-dog.png",
+    "description":"'Klunker', watercolor on cold press paper, 2020",
     "clicked": false,
     "category": "animal",
     "year": "2020"
@@ -38,6 +43,8 @@
     "id": 5,
     "name": "people1",
     "image": "https://i.postimg.cc/sgZyCYLg/slobodan.png",
+    "larger": "https://i.postimg.cc/Y9NmqwG4/Screen-Shot-2020-11-28-at-4-48-24-PM.png",
+    "description":"'Slobodan', watercolor on cold press paper, 2019",
     "clicked": false,
     "category": "people",
     "year": "2019"

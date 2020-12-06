@@ -46,6 +46,8 @@ const ContactModal = (props) => {
       <Button
         color="link"
         style={{
+          fontFamily: " 'Montserrat', sans-serif !important",
+          fontWeight: "800",
           color: "gray",
           textDecoration: "none",
           position: "fixed",
@@ -54,7 +56,7 @@ const ContactModal = (props) => {
         }}
         onClick={toggle}
       >
-        Contact
+        CONTACT
       </Button>
       <Modal isOpen={modal} toggle={toggle} className={className}>
         <ModalHeader toggle={toggle}>Send an Email</ModalHeader>

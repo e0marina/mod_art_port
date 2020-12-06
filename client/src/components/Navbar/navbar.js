@@ -27,11 +27,11 @@ const Navigation = () => {
             <div className="nav-items">
               <NavItem>
                 <NavLink className="people" href="/people">
-                  People
+                  PEOPLE
                 </NavLink>
               </NavItem>
               <NavItem className="animals">
-                <NavLink href="/animal">Animals</NavLink>
+                <NavLink href="/animal">ANIMALS</NavLink>
               </NavItem>
 
               <ContactModal />

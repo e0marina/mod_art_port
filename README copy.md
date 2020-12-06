@@ -1,3 +1,8 @@
+To do:
+-find new font and use it for nav buttons / contact form?
+-fix positioning of contact in mobile view
+-update descriptions and images in json file
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
