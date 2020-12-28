@@ -1,7 +1,9 @@
 To do:
--find new font and use it for nav buttons / contact form?
+-move all button over
+-use nice font on contact form
 -fix positioning of contact in mobile view
 -update descriptions and images in json file
+-have max width on desktop view
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

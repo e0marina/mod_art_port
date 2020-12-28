@@ -1,0 +1,15 @@
+#contact-btn {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 800 !important;
+  color: gray !important;
+  text-decoration: none !important;
+  background-color: white !important;
+}
+
+@media (min-width: 768px) {
+  #contact-btn {
+    position: absolute !important;
+    top: 10px !important;
+    right: 0px !important;
+  }
+}

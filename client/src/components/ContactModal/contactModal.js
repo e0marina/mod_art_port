@@ -10,6 +10,7 @@ import {
   Label,
   Input,
 } from "reactstrap";
+import "./contactModal.css";
 
 const ContactModal = (props) => {
   const { className } = props;
@@ -43,19 +44,7 @@ const ContactModal = (props) => {
 
   return (
     <div>
-      <Button
-        color="link"
-        style={{
-          fontFamily: " 'Montserrat', sans-serif !important",
-          fontWeight: "800",
-          color: "gray",
-          textDecoration: "none",
-          position: "fixed",
-          right: "20px",
-          top: "10px",
-        }}
-        onClick={toggle}
-      >
+      <Button id="contact-btn" color="link" onClick={toggle}>
         CONTACT
       </Button>
       <Modal isOpen={modal} toggle={toggle} className={className}>

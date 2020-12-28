@@ -26,6 +26,11 @@ const Navigation = () => {
           <Nav className="mr-auto" navbar>
             <div className="nav-items">
               <NavItem>
+                <NavLink className="all" href="/">
+                  ALL
+                </NavLink>
+              </NavItem>
+              <NavItem>
                 <NavLink className="people" href="/people">
                   PEOPLE
                 </NavLink>
