@@ -34,3 +34,8 @@ img {
     margin-bottom: 15px; /* space between items */
   }
 }
+@media (min-width: 801px) {
+  .my-masonry-grid {
+    max-width: 1440px;
+  }
+}

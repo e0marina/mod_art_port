@@ -12,7 +12,6 @@ import ContactModal from "../ContactModal/contactModal";
 import "./navbar.css";
 
 const Navigation = () => {
-  //handles responsive nav hamburger
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);

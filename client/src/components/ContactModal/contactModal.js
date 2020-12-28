@@ -26,19 +26,16 @@ const ContactModal = (props) => {
 
   const printValues = (e) => {
     e.preventDefault();
-    console.log(email, subject, text);
 
     const post = {
       email: email,
       subject: subject,
-
       text: text,
     };
 
     axios.post("/email", post).then((res) => {
       console.log(res.data);
       toggle();
-      // window.location.reload();
     });
   };
 

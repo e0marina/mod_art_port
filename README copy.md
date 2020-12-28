@@ -1,9 +1,12 @@
 To do:
--move all button over
--use nice font on contact form
--fix positioning of contact in mobile view
+
 -update descriptions and images in json file
--have max width on desktop view
+
+Eventually:
+-about me section
+-link to instagram?
+-make the contact form better looking
+-user feedback with contact form / validation
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
