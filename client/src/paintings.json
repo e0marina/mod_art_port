@@ -1,4 +1,47 @@
+
+
+
 [
+  {
+    "id": 15,
+    "name": "sadie",
+    "image": "https://i.postimg.cc/8PmDdk6T/Screen-Shot-2020-12-29-at-9-24-05-PM.png",
+    "larger":  "https://i.postimg.cc/QxxYPjz8/Screen-Shot-2020-12-29-at-9-24-05-PM.png",
+    "description":"'Sadie', watercolor on paper, 2020",
+    "clicked": false,
+    "category": "people",
+    "year": "2020"
+  },
+  {
+    "id": 13,
+    "name": "cashthedog",
+    "image": "https://i.postimg.cc/50NR81Lk/Screen-Shot-2020-12-29-at-9-13-05-PM.png",
+    "larger":  "https://i.postimg.cc/1XK0BNSG/Screen-Shot-2020-12-29-at-9-13-05-PM.png",
+    "description":"'Cash', watercolor on paper, 2020",
+    "clicked": false,
+    "category": "animal",
+    "year": "2020"
+  },
+  {
+    "id": 16,
+    "name": "pinkbaby",
+    "image": "https://i.postimg.cc/W3TwknLN/Screen-Shot-2020-12-29-at-9-23-17-PM.png",
+    "larger":  "https://i.postimg.cc/fT9SM9pB/Screen-Shot-2020-12-29-at-9-23-17-PM.png",
+    "description":"'Pink Oliver', watercolor on paper, 2020",
+    "clicked": false,
+    "category": "people",
+    "year": "2020"
+  },
+  {
+    "id": 14,
+    "name": "nola",
+    "image": "https://i.postimg.cc/N07058kk/Screen-Shot-2020-12-29-at-9-23-37-PM.png",
+    "larger":  "https://i.postimg.cc/cHP1zDxZ/Screen-Shot-2020-12-29-at-9-23-37-PM.png",
+    "description":"'Nola', watercolor on paper, 2020",
+    "clicked": false,
+    "category": "animal",
+    "year": "2020"
+  },
   {
     "id": 1,
     "name": "chinchilla",
@@ -58,14 +101,6 @@
     "year": "2017"
   },
   {
-    "id": 7,
-    "name": "people3",
-    "image": "https://i.postimg.cc/vmqp1DkN/omarsGM.png",
-    "clicked": false,
-    "category": "people",
-    "year": "2019"
-  },
-  {
     "id": 8,
     "name": "people4",
     "image": "https://i.postimg.cc/8zT3thVY/myMom.png",
@@ -80,14 +115,6 @@
     "clicked": false,
     "category": "people",
     "year": "2018"
-  },
-  {
-    "id": 10,
-    "name": "people6",
-    "image": "https://i.postimg.cc/DwbWpbdq/portrait-For-Shannon.png",
-    "clicked": false,
-    "category": "people",
-    "year": "2017"
   },
   {
     "id": 11,
