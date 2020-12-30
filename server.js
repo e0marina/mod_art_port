@@ -31,6 +31,10 @@ app.post("/email", (req, res) => {
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
+
+app.get("/", function (req, res) {
+  res.json(path.join(__dirname, "public/index.html"));
+});
 //once build made use this below instead "./client/build/index.html"
 // Send every request to the React app
 // Define any API routes before this runs
