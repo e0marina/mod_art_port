@@ -8,7 +8,7 @@ const app = express();
 require("dotenv").config();
 
 //data parsing
-app.use(express.urlencoded({ extended: false }));
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.post("/email", (req, res) => {
