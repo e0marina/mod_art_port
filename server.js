@@ -28,9 +28,9 @@ app.post("/email", (req, res) => {
 });
 
 // Serve up static assets (usually on heroku)
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static("client/build"));
-}
+if (process.env.NODE_ENV === 'production') {
+  // Serve any static files
+  app.use(express.static(path.join(__dirname, 'client/build')));
 
 //once build made use this below instead "./client/build/index.html"
 // Send every request to the React app
