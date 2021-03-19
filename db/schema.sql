@@ -7,8 +7,8 @@ USE artwork_db;
 CREATE TABLE art(
     id INTEGER(11) AUTO_INCREMENT NOT NULL, 
     name VARCHAR(100),
-    smImageURl VARCHAR(300),
-    lgImageURl VARCHAR(300),
+    smImageUrl VARCHAR(300),
+    lgImageUrl VARCHAR(300),
     description VARCHAR(500),
     category VARCHAR(100), 
     year INTEGER(11),
