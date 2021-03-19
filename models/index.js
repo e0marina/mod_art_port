@@ -41,10 +41,8 @@ Art.init(
     },
     {
         sequelize,
-        timestamps: false,
         freezeTableName: true,
-        underscored: true,
-        modelName: 'artwork_db',
+        modelName: 'art',
     }
 );
 

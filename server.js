@@ -5,6 +5,7 @@ const PORT = process.env.PORT || 3001;
 const app = express();
 require("dotenv").config();
 const sequelize = require("./config/config");
+const routes = require('./controllers');
 //data parsing
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -42,6 +43,9 @@ app.get("/", function (req, res) {
 app.get("*", function (req, res) {
   res.sendFile(path.join(__dirname, "./client/build/index.html"));
 });
+
+//api routes
+app.use(routes);
 
 app.listen(PORT, function () {
   console.log(`🌎 ==> API server now on port ${PORT}!`);
