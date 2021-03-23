@@ -10,29 +10,28 @@ Art.init(
     {
         id: {
             type: DataTypes.INTEGER,
-            allowNull: false,
             primaryKey: true,
             autoIncrement: true
         },
         name: {
             type: DataTypes.STRING,
-            allowNull: false,
+
         },
         smImageUrl: {
             type: DataTypes.STRING,
-            allowNull: false
+
         },
         lgImageUrl: {
             type: DataTypes.STRING,
-            allowNull: false
+
         },
         description: {
             type: DataTypes.STRING,
-            allowNull: false
+
         },
         category: {
             type: DataTypes.STRING,
-            allowNull: false
+
         },
         year: {
             type: DataTypes.INTEGER,
@@ -41,9 +40,7 @@ Art.init(
     },
     {
         sequelize,
-        freezeTableName: true,
-        modelName: 'art',
     }
 );
 
-module.exports = Art;
+module.exports = { Art };

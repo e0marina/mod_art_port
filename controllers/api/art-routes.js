@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const { Art } = require('../../models');
-
+// The `/api/artwork` endpoint
 router.get('/', (req, res) => {
     Art.findAll({})
         .then((artwork) => res.json(artwork))
