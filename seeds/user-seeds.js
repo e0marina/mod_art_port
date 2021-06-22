@@ -13,6 +13,10 @@ const userdata = [
     email: 'cstoneman2@last.fm',
     password: 'password123',
   },
+  {
+    email: 'admin@admin.com',
+    password: 'adminLogin12',
+  },
 ];
 
 const seedUsers = () =>
