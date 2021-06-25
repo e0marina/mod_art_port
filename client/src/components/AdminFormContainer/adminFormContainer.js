@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
@@ -32,6 +32,15 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const FormContainer = () => {
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(`Submitting Email and Password ${email}, ${password}`);
+    setEmail('');
+    setPassword('');
+  };
   const classes = useStyles();
   return (
     <>
@@ -41,10 +50,26 @@ const FormContainer = () => {
             <Paper elevation={3} className={classes.paper}>
               <form className={classes.form} noValidate autoComplete='off'>
                 <div className={classes.txtfield}>
-                  <TextField id='standard-basic' label='EMAIL' />
-                  <TextField id='standard-basic' label='PASSWORD' />
+                  <TextField
+                    id='standard-basic'
+                    label='EMAIL'
+                    type='text'
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                  />
+                  <TextField
+                    id='standard-basic'
+                    label='PASSWORD'
+                    type='text'
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                  />
                 </div>
-                <Button className={classes.button} variant='contained'>
+                <Button
+                  className={classes.button}
+                  variant='contained'
+                  onClick={handleSubmit}
+                >
                   Submit
                 </Button>
               </form>
