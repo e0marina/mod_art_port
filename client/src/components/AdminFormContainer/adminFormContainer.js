@@ -35,9 +35,24 @@ const FormContainer = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async function (e) {
     e.preventDefault();
     console.log(`Submitting Email and Password ${email}, ${password}`);
+    const usernameEl = document.querySelector('#email-field');
+    const passwordEl = document.querySelector('#password-field');
+    fetch('/login', {
+      method: 'post',
+      body: JSON.stringify({
+        username: usernameEl.value,
+        password: passwordEl.value,
+      }),
+      headers: { 'Content-Type': 'application/json' },
+    })
+      .then(function () {
+        document.location.replace('/hello');
+      })
+      .catch((err) => console.log(err));
+    //clear the fields
     setEmail('');
     setPassword('');
   };
@@ -51,14 +66,14 @@ const FormContainer = () => {
               <form className={classes.form} noValidate autoComplete='off'>
                 <div className={classes.txtfield}>
                   <TextField
-                    id='standard-basic'
+                    id='email-field'
                     label='EMAIL'
                     type='text'
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                   />
                   <TextField
-                    id='standard-basic'
+                    id='password-field'
                     label='PASSWORD'
                     type='text'
                     value={password}
