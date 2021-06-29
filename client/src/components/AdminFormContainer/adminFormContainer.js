@@ -38,23 +38,23 @@ const FormContainer = () => {
   const handleSubmit = async function (e) {
     e.preventDefault();
     console.log(`Submitting Email and Password ${email}, ${password}`);
-    const usernameEl = document.querySelector('#email-field');
-    const passwordEl = document.querySelector('#password-field');
-    fetch('/login', {
+    // const emailEl = document.querySelector('#email-field');
+    // const passwordEl = document.querySelector('#password-field');
+    fetch('api/user/login', {
       method: 'post',
       body: JSON.stringify({
-        username: usernameEl.value,
-        password: passwordEl.value,
+        email: `${email}`,
+        password: `${password}`,
       }),
       headers: { 'Content-Type': 'application/json' },
     })
       .then(function () {
-        document.location.replace('/hello');
+        console.log('hello');
       })
       .catch((err) => console.log(err));
     //clear the fields
-    setEmail('');
-    setPassword('');
+    // setEmail('');
+    // setPassword('');
   };
   const classes = useStyles();
   return (
