@@ -1,13 +1,19 @@
-const router = require('express').Router();
-const withAuth = require('../utils/auth');
+// const router = require('express').Router();
+// const { User } = require('../models/index.js');
 
-router.get('/login', withAuth, (req, res) => {
-  if (req.session.loggedIn) {
-    res.redirect('/');
-    return;
-  }
+// router.get('/login', (req, res) => {
+//   //signin
+//   User.findOne({
+//     where: {
+//       email: email
+//     }
+//   })
 
-  res.render('login');
-});
+//   // if (req.session.loggedIn) {
+//   //   res.redirect('/');
+//   //   return;
+//   // }
+//   // res.render('login');
+// });
 
-module.exports = router;
+// module.exports = router;

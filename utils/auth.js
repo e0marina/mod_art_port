@@ -1,9 +1,13 @@
-const withAuth = (req, res, next) => {
-  if (!req.session.userId) {
-    res.redirect('/login');
-  } else {
-    next();
-  }
-};
+const jwt = require('jsonwebtoken');
+require('dotenv').config();
 
-module.exports = withAuth;
+const secret = process.env.JWT_SECRET;
+const expiration = '2h';
+
+module.exports = {
+  signToken: function ({ email, id }) {
+    const payload = { email, id };
+
+    return jwt.sign({ data: payload }, secret, { expiresIn: expiration });
+  },
+};
