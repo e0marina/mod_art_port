@@ -24,7 +24,7 @@
     "name": "pinkbaby",
     "image": "https://i.postimg.cc/W3TwknLN/Screen-Shot-2020-12-29-at-9-23-17-PM.png",
     "larger": "https://i.postimg.cc/fT9SM9pB/Screen-Shot-2020-12-29-at-9-23-17-PM.png",
-    "description": "'Pink Oliver', watercolor on paper, 2020",
+    "description": "'Pink Oliver', watercolor on board, 2020",
     "clicked": false,
     "category": "people",
     "year": "2020"
@@ -105,28 +105,45 @@
     "category": "people",
     "year": "2018"
   },
+
   {
     "id": 9,
-    "name": "people5",
-    "image": "https://i.postimg.cc/MZdjnwpj/margaret.png",
+    "name": "bort",
+    "image": "https://i.postimg.cc/BZBNF550/courtney-flower-crown.jpg",
+    "larger":"https://i.postimg.cc/VsZr2dmN/courtney-flower-crown.jpg",
+    "description": "'Bort', watercolor on cold press paper, 2024",
     "clicked": false,
     "category": "people",
-    "year": "2018"
+    "year": "2024"
+  },
+    {
+    "id": 10,
+    "name": "jeremy",
+    "image": "https://i.postimg.cc/HxyYKs2j/jeremy.jpg",
+    "larger":"https://i.postimg.cc/gcyd67Br/jeremy.jpg",
+    "description": "'Jeremy', watercolor on cold press paper, 2024",
+    "clicked": false,
+    "category": "people",
+    "year": "2024"
   },
   {
-    "id": 11,
-    "name": "people7",
-    "image": "https://i.postimg.cc/DfMwVwz5/sharlene-Sketch.png",
+    "id": 10,
+    "name": "untitled",
+    "image": "https://i.postimg.cc/wxR2f8dg/guy-earring.jpg",
+    "larger":"https://i.postimg.cc/NjCrvF1d/guy-earring.jpg",
+    "description": "'Untitled', watercolor on cold press paper, 2024",
     "clicked": false,
     "category": "people",
-    "year": "2017"
+    "year": "2024"
   },
-  {
-    "id": 12,
-    "name": "people8",
-    "image": "https://i.postimg.cc/NMPBwdQL/sand-Desert-Man.png",
+    {
+    "id": 10,
+    "name": "max",
+    "image": "https://i.postimg.cc/Dy8TYzww/Max.jpg",
+    "larger":"https://i.postimg.cc/fWg4Xhfy/Max.jpg",
+    "description": "'Max', watercolor on cold press paper, 2021",
     "clicked": false,
     "category": "people",
-    "year": "2017"
+    "year": "2021"
   }
 ]
