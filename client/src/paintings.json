@@ -1,13 +1,23 @@
 [
   {
-    "id": 15,
-    "name": "sadie",
-    "image": "https://i.postimg.cc/8PmDdk6T/Screen-Shot-2020-12-29-at-9-24-05-PM.png",
-    "larger": "https://i.postimg.cc/QxxYPjz8/Screen-Shot-2020-12-29-at-9-24-05-PM.png",
-    "description": "'Sadie', watercolor on paper, 2020",
+    "id": 9,
+    "name": "bort",
+    "image": "https://i.postimg.cc/BZBNF550/courtney-flower-crown.jpg",
+    "larger":"https://i.postimg.cc/VsZr2dmN/courtney-flower-crown.jpg",
+    "description": "'Bort', watercolor on cold press paper, 2024",
     "clicked": false,
     "category": "people",
-    "year": "2020"
+    "year": "2024"
+  },
+  {
+    "id": 10,
+    "name": "jeremy",
+    "image": "https://i.postimg.cc/HxyYKs2j/jeremy.jpg",
+    "larger":"https://i.postimg.cc/gcyd67Br/jeremy.jpg",
+    "description": "'Jeremy', watercolor on cold press paper, 2024",
+    "clicked": false,
+    "category": "people",
+    "year": "2024"
   },
   {
     "id": 13,
@@ -17,6 +27,46 @@
     "description": "'Cash', watercolor on paper, 2020",
     "clicked": false,
     "category": "animal",
+    "year": "2020"
+  },
+  {
+    "id": 10,
+    "name": "untitled",
+    "image": "https://i.postimg.cc/wxR2f8dg/guy-earring.jpg",
+    "larger":"https://i.postimg.cc/NjCrvF1d/guy-earring.jpg",
+    "description": "'Untitled', watercolor on cold press paper, 2024",
+    "clicked": false,
+    "category": "people",
+    "year": "2024"
+  },
+  {
+    "id": 10,
+    "name": "max",
+    "image": "https://i.postimg.cc/Dy8TYzww/Max.jpg",
+    "larger":"https://i.postimg.cc/fWg4Xhfy/Max.jpg",
+    "description": "'Max', watercolor on cold press paper, 2021",
+    "clicked": false,
+    "category": "people",
+    "year": "2021"
+  },
+  {
+    "id": 10,
+    "name": "milk jug",
+    "image": "https://i.postimg.cc/8CHkg0QS/milk-jug.jpg",
+    "larger":"https://i.postimg.cc/fWg4Xhfy/Max.jpg",
+    "description": "'Milk Jug', watercolor on cold press paper, 2025",
+    "clicked": false,
+    "category": "stilllife",
+    "year": "2025"
+  },
+  {
+    "id": 15,
+    "name": "sadie",
+    "image": "https://i.postimg.cc/8PmDdk6T/Screen-Shot-2020-12-29-at-9-24-05-PM.png",
+    "larger": "https://i.postimg.cc/QxxYPjz8/Screen-Shot-2020-12-29-at-9-24-05-PM.png",
+    "description": "'Sadie', watercolor on paper, 2020",
+    "clicked": false,
+    "category": "people",
     "year": "2020"
   },
   {
@@ -104,46 +154,5 @@
     "clicked": false,
     "category": "people",
     "year": "2018"
-  },
-
-  {
-    "id": 9,
-    "name": "bort",
-    "image": "https://i.postimg.cc/BZBNF550/courtney-flower-crown.jpg",
-    "larger":"https://i.postimg.cc/VsZr2dmN/courtney-flower-crown.jpg",
-    "description": "'Bort', watercolor on cold press paper, 2024",
-    "clicked": false,
-    "category": "people",
-    "year": "2024"
-  },
-    {
-    "id": 10,
-    "name": "jeremy",
-    "image": "https://i.postimg.cc/HxyYKs2j/jeremy.jpg",
-    "larger":"https://i.postimg.cc/gcyd67Br/jeremy.jpg",
-    "description": "'Jeremy', watercolor on cold press paper, 2024",
-    "clicked": false,
-    "category": "people",
-    "year": "2024"
-  },
-  {
-    "id": 10,
-    "name": "untitled",
-    "image": "https://i.postimg.cc/wxR2f8dg/guy-earring.jpg",
-    "larger":"https://i.postimg.cc/NjCrvF1d/guy-earring.jpg",
-    "description": "'Untitled', watercolor on cold press paper, 2024",
-    "clicked": false,
-    "category": "people",
-    "year": "2024"
-  },
-    {
-    "id": 10,
-    "name": "max",
-    "image": "https://i.postimg.cc/Dy8TYzww/Max.jpg",
-    "larger":"https://i.postimg.cc/fWg4Xhfy/Max.jpg",
-    "description": "'Max', watercolor on cold press paper, 2021",
-    "clicked": false,
-    "category": "people",
-    "year": "2021"
   }
 ]

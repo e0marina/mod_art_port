@@ -37,6 +37,9 @@ const Navigation = () => {
               <NavItem className="animals">
                 <NavLink href="/animal">ANIMALS</NavLink>
               </NavItem>
+              <NavItem className="animals">
+                <NavLink href="/stilllife">STILL LIFE</NavLink>
+              </NavItem>
 
               <ContactModal />
             </div>
