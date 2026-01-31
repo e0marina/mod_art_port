@@ -1,11 +1,12 @@
-{"homepage": "https://emily-studio.com",
+{
+  "homepage": "https://emily-gallery.com",
   "name": "emily_art_portfolio",
   "version": "1.0.0",
   "description": "Art Portfolio",
   "main": "server.js",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d client/build",
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node server.js",
     "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
@@ -20,7 +21,7 @@
   "devDependencies": {
     "concurrently": "^6.0.0",
     "express-pino-logger": "^5.0.0",
-    "gh-pages": "^6.3.0",
+    "gh-pages": "^5.0.0",
     "node-env-run": "^4.0.2",
     "nodemon": "^2.0.4",
     "npm-run-all": "^4.1.5",
