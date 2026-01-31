@@ -29,13 +29,19 @@ const Navigation = () => {
                   ALL
                 </NavLink>
               </NavItem>
-              <NavItem>
+              {/* <NavItem>
                 <NavLink className="people" href="/people">
                   PEOPLE
                 </NavLink>
               </NavItem>
               <NavItem className="animals">
                 <NavLink href="/animal">ANIMALS</NavLink>
+              </NavItem>
+              <NavItem className="stilllife">
+                <NavLink href="/stilllife">STILL LIFE</NavLink>
+              </NavItem> */}
+              <NavItem className="animals">
+                <NavLink href="/available">AVAILABLE</NavLink>
               </NavItem>
 
               <ContactModal />
