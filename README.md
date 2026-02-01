@@ -2,7 +2,7 @@
 This is a personal project that's mostly intended to showcase my art in addition to help me continue to learn / hone my skills with development. 
 It's a full stack application built with Node.js, Express.js, React.js, and MySQL/Sequelize. The Node/Express/Sequelize back end is currently in progress, while at the moment, 
 the React.js front-end is fully functional. The user can sort the paintings by subject and send an email, and when the user clicks on an image, they can see a zoomed in image. Visit the react app here: https://pure-garden-41255.herokuapp.com/
-
+//wgsadfdsf
 Soon, I will connect the back and front end and a user will be able to add artwork that will then populate on the front-end. 
 Once this is built, I intend to do it again using Mongo/GraphQL. 
 
