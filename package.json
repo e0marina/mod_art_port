@@ -36,6 +36,7 @@
     "connect-session-sequelize": "^7.1.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "gh": "^2.8.9",
     "if-env": "^1.0.4",
     "jsonwebtoken": "^8.5.1",
     "mysql2": "^2.2.5",
