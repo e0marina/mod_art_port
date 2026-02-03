@@ -3,20 +3,22 @@
     "id": 9,
     "name": "bort",
     "image": "https://i.postimg.cc/BZBNF550/courtney-flower-crown.jpg",
-    "larger":"https://i.postimg.cc/VsZr2dmN/courtney-flower-crown.jpg",
+    "larger": "https://i.postimg.cc/VsZr2dmN/courtney-flower-crown.jpg",
     "description": "'Bort', watercolor on cold press paper, 2024",
     "clicked": false,
-    "category": "people",
+    "category": "available",
+
     "year": "2024"
   },
   {
     "id": 10,
     "name": "jeremy",
     "image": "https://i.postimg.cc/HxyYKs2j/jeremy.jpg",
-    "larger":"https://i.postimg.cc/gcyd67Br/jeremy.jpg",
+    "larger": "https://i.postimg.cc/HxyYKs2j/jeremy.jpg",
     "description": "'Jeremy', watercolor on cold press paper, 2024",
     "clicked": false,
-    "category": "people",
+    "category": "available",
+
     "year": "2024"
   },
   {
@@ -33,17 +35,17 @@
     "id": 10,
     "name": "untitled",
     "image": "https://i.postimg.cc/wxR2f8dg/guy-earring.jpg",
-    "larger":"https://i.postimg.cc/NjCrvF1d/guy-earring.jpg",
+    "larger": "https://i.postimg.cc/NjCrvF1d/guy-earring.jpg",
     "description": "'Untitled', watercolor on cold press paper, 2024",
     "clicked": false,
-    "category": "people",
+
     "year": "2024"
   },
   {
     "id": 10,
     "name": "max",
     "image": "https://i.postimg.cc/Dy8TYzww/Max.jpg",
-    "larger":"https://i.postimg.cc/fWg4Xhfy/Max.jpg",
+    "larger": "https://i.postimg.cc/fWg4Xhfy/Max.jpg",
     "description": "'Max', watercolor on cold press paper, 2021",
     "clicked": false,
     "category": "people",
@@ -53,11 +55,111 @@
     "id": 10,
     "name": "milk jug",
     "image": "https://i.postimg.cc/8CHkg0QS/milk-jug.jpg",
-    "larger":"https://i.postimg.cc/fWg4Xhfy/Max.jpg",
+    "larger": "https://i.postimg.cc/8CHkg0QS/milk-jug.jpg",
     "description": "'Milk Jug', watercolor on cold press paper, 2025",
     "clicked": false,
-    "category": "stilllife",
+    "category": "available",
     "year": "2025"
+  },
+  {
+    "id": 10,
+    "name": "john doe",
+    "image": "https://i.postimg.cc/ncmgrCqM/houseless.jpg",
+    "larger": "https://i.postimg.cc/ncmgrCqM/houseless.jpg",
+    "description": "'John Doe', watercolor on cold press paper, 2024",
+    "clicked": false,
+    "category": "available",
+    "year": "2024"
+  },
+  {
+    "id": 10,
+    "name": "skeleton mask",
+    "image": "https://i.postimg.cc/LXm00TWj/oli-in-mask.jpg",
+    "larger": "https://i.postimg.cc/LXm00TWj/oli-in-mask.jpg",
+    "description": "'Skeleton Mask', watercolor on cold press paper, 2025",
+    "clicked": false,
+    "category": "available",
+    "year": "2025"
+  },
+  {
+    "id": 10,
+    "name": "soldier",
+    "image": "https://i.postimg.cc/RFnQdnSp/soldier.jpg",
+    "larger": "https://i.postimg.cc/RFnQdnSp/soldier.jpg",
+    "description": "'Soldier', watercolor on cold press paper, 2025",
+    "clicked": false,
+    "category": "available",
+    "year": "2025"
+  },
+  {
+    "id": 10,
+    "name": "windex",
+    "image": "https://i.postimg.cc/2S6WTBTC/windex-painting.jpg",
+    "larger": "https://i.postimg.cc/2S6WTBTC/windex-painting.jpg",
+    "description": "'Windex', watercolor on cold press paper, 2025",
+    "clicked": false,
+    "category": "available",
+    "year": "2025"
+  },
+  {
+    "id": 10,
+    "name": "green braid",
+    "image": "https://i.postimg.cc/wjyv750y/IMG-8216.jpg",
+    "larger": "https://i.postimg.cc/wjyv750y/IMG-8216.jpg",
+    "description": "'Green Braid', watercolor on cold press paper, 2022",
+    "clicked": false,
+    "category": "available",
+    "year": "2022"
+  },
+  {
+    "id": 10,
+    "name": "angus",
+    "image": "https://i.postimg.cc/BZRZRPqt/IMG-8217.jpg",
+    "larger": "https://i.postimg.cc/BZRZRPqt/IMG-8217.jpg",
+    "description": "'Angus', watercolor on cold press paper, 2022",
+    "clicked": false,
+    "category": "available",
+    "year": "2022"
+  },
+  {
+    "id": 10,
+    "name": "nasty & too many",
+    "image": "https://i.postimg.cc/8Ccq1w45/IMG-8223.jpg",
+    "larger": "https://i.postimg.cc/8Ccq1w45/IMG-8223.jpg",
+    "description": "'Nasty & Too Many', watercolor on cold press paper, 2022",
+    "clicked": false,
+    "category": "available",
+    "year": "2022"
+  },
+  {
+    "id": 10,
+    "name": "perspective",
+    "image": "https://i.postimg.cc/Wp86njjx/IMG-8219.jpg",
+    "larger": "https://i.postimg.cc/Wp86njjx/IMG-8219.jpg",
+    "description": "'Perspective', watercolor on cold press paper, 2022",
+    "clicked": false,
+    "category": "available",
+    "year": "2022"
+  },
+  {
+    "id": 10,
+    "name": "felicia",
+    "image": "https://i.postimg.cc/Kc0BTNDZ/IMG-8235.jpg",
+    "larger": "https://i.postimg.cc/Kc0BTNDZ/IMG-8235.jpg",
+    "description": "'Felicia', watercolor on cold press paper, 2023",
+    "clicked": false,
+    "category": "available",
+    "year": "2023"
+  },
+  {
+    "id": 10,
+    "name": "cat",
+    "image": "https://i.postimg.cc/X7NxSqxh/IMG-8218.jpg",
+    "larger": "https://i.postimg.cc/X7NxSqxh/IMG-8218.jpg",
+    "description": "'Cat', watercolor on cold press paper, 2023",
+    "clicked": false,
+    "category": "available",
+    "year": "2023"
   },
   {
     "id": 15,

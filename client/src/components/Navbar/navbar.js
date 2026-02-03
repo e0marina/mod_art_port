@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 import {
   Collapse,
   Navbar,
@@ -7,9 +7,9 @@ import {
   Nav,
   NavItem,
   NavLink,
-} from "reactstrap";
-import ContactModal from "../ContactModal/contactModal";
-import "./navbar.css";
+} from 'reactstrap';
+import ContactModal from '../ContactModal/contactModal';
+import './navbar.css';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,15 +17,15 @@ const Navigation = () => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div id="nav-styling">
-      <Navbar light expand="md">
-        <NavbarBrand href="/">EMILY MARINARO</NavbarBrand>
+    <div id='nav-styling'>
+      <Navbar light expand='md'>
+        <NavbarBrand href='/'>EMILY MARINARO</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto" navbar>
-            <div className="nav-items">
+          <Nav className='mr-auto' navbar>
+            <div className='nav-items'>
               <NavItem>
-                <NavLink className="all" href="/">
+                <NavLink className='all' href='/'>
                   ALL
                 </NavLink>
               </NavItem>
@@ -40,8 +40,8 @@ const Navigation = () => {
               <NavItem className="stilllife">
                 <NavLink href="/stilllife">STILL LIFE</NavLink>
               </NavItem> */}
-              <NavItem className="animals">
-                <NavLink href="/available">AVAILABLE</NavLink>
+              <NavItem className='available'>
+                <NavLink href='/available'>AVAILABLE</NavLink>
               </NavItem>
 
               <ContactModal />

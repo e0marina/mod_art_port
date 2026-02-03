@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import axios from "axios";
+import React, { useState } from 'react';
+import axios from 'axios';
 import {
   Button,
   Modal,
@@ -9,8 +9,8 @@ import {
   FormGroup,
   Label,
   Input,
-} from "reactstrap";
-import "./contactModal.css";
+} from 'reactstrap';
+import './contactModal.css';
 
 const ContactModal = (props) => {
   const { className } = props;
@@ -19,10 +19,10 @@ const ContactModal = (props) => {
 
   const toggle = () => setModal(!modal);
 
-  const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
+  const [email, setEmail] = useState('');
+  const [subject, setSubject] = useState('');
 
-  const [text, setText] = useState("");
+  const [text, setText] = useState('');
 
   const printValues = (e) => {
     e.preventDefault();
@@ -33,7 +33,7 @@ const ContactModal = (props) => {
       text: text,
     };
 
-    axios.post("/email", post).then((res) => {
+    axios.post('/email', post).then((res) => {
       console.log(res.data);
       toggle();
     });
@@ -41,12 +41,12 @@ const ContactModal = (props) => {
 
   return (
     <div>
-      <Button id="contact-btn" color="link" onClick={toggle}>
+      <Button id='contact-btn' color='link' onClick={toggle}>
         CONTACT
       </Button>
       <Modal isOpen={modal} toggle={toggle} className={className}>
-        <ModalHeader toggle={toggle}>Send an Email</ModalHeader>
-        <ModalBody>
+        <ModalHeader toggle={toggle}>EMILYMARINARO@GMAIL.COM</ModalHeader>
+        {/* <ModalBody>
           <Form onSubmit={printValues}>
             <FormGroup>
               <Label for="userEmail">Email</Label>
@@ -83,7 +83,7 @@ const ContactModal = (props) => {
             </FormGroup>
             <Button>Submit</Button>
           </Form>
-        </ModalBody>
+        </ModalBody> */}
       </Modal>
     </div>
   );
